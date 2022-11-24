@@ -20,7 +20,6 @@ module.exports = {
         'arrow-spacing': 'error',
         'space-infix-ops': 'error',
         'no-console': 'warn',
-        'react-hooks/exhaustive-deps': 'off',
         'no-useless-catch': 'off',
         'jsx-quotes': ['error', 'prefer-double'],
         'space-before-function-paren': ['error', 'never'],

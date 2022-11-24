@@ -1,7 +1,7 @@
-import { RootScreensList, RootStackParamsList } from '@/types/navigator';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import React, { useCallback } from 'react';
+import React from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { RootScreensList, RootStackParamsList } from '@/types/navigator';
 
 type Props = NativeStackScreenProps<RootStackParamsList, 'Home'>;
 
@@ -31,12 +31,9 @@ const styles = StyleSheet.create({
 function HomeScreen(props: Props) {
   const { navigation } = props;
 
-  const handleNavigate = useCallback(
-    (screen: RootScreensList) => () => {
-      navigation.navigate(screen);
-    },
-    [navigation.navigate]
-  );
+  const handleNavigate = (screen: RootScreensList) => () => {
+    navigation.navigate(screen);
+  };
 
   return (
     <View style={styles.container}>
