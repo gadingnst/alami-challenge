@@ -5,6 +5,10 @@ import React, { useEffect } from 'react';
 import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import useLoader from './hooks/useLoader';
 
+/**
+ * 3. Buatlah sebuah progress bar yang akan otomatis berjalan hingga 100% tetapi jika di tekan
+ *    (hold) animasi progress bar tersebut akan berhenti dan ketika di lepas holdnya akan jalan kembali
+ */
 function ProgressLoaderScreen() {
   const { progress, isLoading, start, stop, restart } = useLoader();
 
