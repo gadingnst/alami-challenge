@@ -1,22 +1,23 @@
-import React, { useEffect } from 'react';
-import { Text, View, NativeModules } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Text, View, NativeModules, Platform } from 'react-native';
 
-const DeviceInfo = NativeModules.DeviceInfo;
+const DeviceUniqueID = NativeModules.DeviceUniqueID;
 
 /**
  * 1. Ambil device id dari mobile device menggunakan bridging native Android dan di IOS
  *    (tanpa menggunakan library)
  */
 function DeviceInformationScreen() {
+  const [uniqueID, setUniqueID] = useState(null);
+
   useEffect(() => {
-    DeviceInfo.getUniqueID().then((deviceID: string) => {
-      console.log('Current Device Unqiue ID: ' + deviceID);
-    });
-  });
+    DeviceUniqueID.get(setUniqueID);
+  }, []);
 
   return (
     <View>
-      <Text>From Device Information Screen</Text>
+      <Text>Current Device Unique ID in ({Platform.OS})</Text>
+      <Text>{uniqueID}</Text>
     </View>
   );
 }

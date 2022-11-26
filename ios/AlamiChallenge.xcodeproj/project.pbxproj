@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AlamiChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlamiChallengeTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-AlamiChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AlamiChallenge.a */; };
+		122BF61529326C4B00C017B6 /* RCTDeviceUniqueID.m in Sources */ = {isa = PBXBuildFile; fileRef = 122BF61429326C4B00C017B6 /* RCTDeviceUniqueID.m */; };
+		122BF61629326C4B00C017B6 /* RCTDeviceUniqueID.m in Sources */ = {isa = PBXBuildFile; fileRef = 122BF61429326C4B00C017B6 /* RCTDeviceUniqueID.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -30,6 +32,8 @@
 		00E356EE1AD99517003FC87E /* AlamiChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamiChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AlamiChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlamiChallengeTests.m; sourceTree = "<group>"; };
+		122BF61329326BCF00C017B6 /* RCTDeviceUniqueID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTDeviceUniqueID.h; sourceTree = "<group>"; };
+		122BF61429326C4B00C017B6 /* RCTDeviceUniqueID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTDeviceUniqueID.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AlamiChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamiChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AlamiChallenge/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AlamiChallenge/AppDelegate.mm; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				122BF61329326BCF00C017B6 /* RCTDeviceUniqueID.h */,
+				122BF61429326C4B00C017B6 /* RCTDeviceUniqueID.m */,
 				13B07FAE1A68108700A75B9A /* AlamiChallenge */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AlamiChallengeTests */,
@@ -405,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* AlamiChallengeTests.m in Sources */,
+				122BF61629326C4B00C017B6 /* RCTDeviceUniqueID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				122BF61529326C4B00C017B6 /* RCTDeviceUniqueID.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
