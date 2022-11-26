@@ -11,6 +11,7 @@
 
 RCT_EXPORT_MODULE(DeviceUniqueID);
 
+/** @see https://stackoverflow.com/a/5468681/8112320  */
 RCT_EXPORT_METHOD(get: (RCTResponseSenderBlock)callback) {
   NSString *deviceUniqueID = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
   callback(@[deviceUniqueID]);
