@@ -71,6 +71,6 @@ or you can run via XCode by opening `ios/` folder in `alami-challenge`.
 
 ## Challenge 3
 <div align="center">
-  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
-  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-3/android.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-3/ios.png" />
 </div>
