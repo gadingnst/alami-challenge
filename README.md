@@ -10,6 +10,10 @@
   - [Run Project](#run-project)
     - [Android](#android)
     - [iOS](#ios)
+- [Screenshots](#screenshots)
+  - [Challenge 1](#challenge-1)
+  - [Challenge 2](#challenge-2)
+  - [Challenge 3](#challenge-3)
 
 # Challenge
 Buatlah react native apps dengan feature:
@@ -51,3 +55,22 @@ Run command:
 npm run ios
 ```
 or you can run via XCode by opening `ios/` folder in `alami-challenge`.
+
+# Screenshots
+## Challenge 1
+<div align="center">
+  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-1/android.png" />
+  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-1/ios.png" />
+</div>
+
+## Challenge 2
+<div align="center">
+  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
+  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
+</div>
+
+## Challenge 3
+<div align="center">
+  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
+  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
+</div>
