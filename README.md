@@ -59,18 +59,18 @@ or you can run via XCode by opening `ios/` folder in `alami-challenge`.
 # Screenshots
 ## Challenge 1
 <div align="center">
-  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-1/android.png" />
-  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-1/ios.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-1/android.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-1/ios.png" />
 </div>
 
 ## Challenge 2
 <div align="center">
-  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
-  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
 </div>
 
 ## Challenge 3
 <div align="center">
-  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
-  <img style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/android.png" />
+  <img width="400" style="margin: 0 10px" src="https://raw.githubusercontent.com/gadingnst/alami-challenge/master/screenshots/challenge-2/ios.png" />
 </div>
