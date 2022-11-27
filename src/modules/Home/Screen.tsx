@@ -29,18 +29,24 @@ function HomeScreen(props: Props) {
         <Text style={styles.title}>Alami Test Challenge</Text>
         <View style={styles.titleDivider} />
       </View>
-      <Button
-        title="Challenge 1: Device ID Information"
-        onPress={handleNavigate('DeviceInformation')}
-      />
-      <Button
-        title="Challenge 2: Cart Component with Hooks"
-        onPress={handleNavigate('Cart')}
-      />
-      <Button
-        title="Challenge 3: Pausable Progress Loader"
-        onPress={handleNavigate('ProgressLoader')}
-      />
+      <View style={styles.btnWrapper}>
+        <Button
+          title="Challenge 1: Device ID Information"
+          onPress={handleNavigate('DeviceInformation')}
+        />
+      </View>
+      <View style={styles.btnWrapper}>
+        <Button
+          title="Challenge 2: Cart Component with Hooks"
+          onPress={handleNavigate('Cart')}
+        />
+      </View>
+      <View style={styles.btnWrapper}>
+        <Button
+          title="Challenge 3: Pausable Progress Loader"
+          onPress={handleNavigate('ProgressLoader')}
+        />
+      </View>
     </View>
   );
 }
@@ -65,6 +71,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column'
+  },
+  btnWrapper: {
+    marginBottom: 10
   }
 });
 

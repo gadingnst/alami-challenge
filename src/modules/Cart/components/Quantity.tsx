@@ -1,5 +1,11 @@
 import React, { memo, useCallback, useMemo, useState } from 'react';
-import { Button, StyleSheet, TextInput, View } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View
+} from 'react-native';
 
 interface Props {
   value: number;
@@ -71,17 +77,26 @@ function Quantity(props: Props) {
 
   return (
     <View style={styles.quantity}>
-      <Button color={toolColor(value === min)} title="-" onPress={onDecrease} />
+      <TouchableOpacity onPress={onDecrease}>
+        <Text style={[styles.textToolQty, { color: toolColor(value === min) }]}>
+          -
+        </Text>
+      </TouchableOpacity>
       <TextInput
         value={editableQuantity.toString()}
         editable
         maxLength={4}
         keyboardType="numeric"
+        style={styles.inputQty}
         onChangeText={onEdit}
         onEndEditing={onChangeQuantity}
         onBlur={onChangeQuantity}
       />
-      <Button color={toolColor(value === max)} title="+" onPress={onIncrease} />
+      <TouchableOpacity onPress={onIncrease}>
+        <Text style={[styles.textToolQty, { color: toolColor(value === max) }]}>
+          +
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -92,6 +107,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  inputQty: {
+    textAlign: 'center',
+    minWidth: 20,
+    padding: 0
+  },
+  textToolQty: {
+    fontSize: 20,
+    marginHorizontal: 5,
+    fontWeight: '700'
   }
 });
 

@@ -36,7 +36,9 @@ function ProgressLoaderScreen() {
           />
         </View>
       </TouchableOpacity>
-      <Text>Loading {progress < 100 ? `${progress}%..` : 'completed!'}</Text>
+      <Text style={styles.informationContainer}>
+        Loading {progress < 100 ? `${progress}%..` : 'completed!'}
+      </Text>
       {progress === 100 && <Button onPress={restart} title="Restart" />}
     </View>
   );
